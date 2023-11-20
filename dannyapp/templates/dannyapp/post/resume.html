@@ -1,0 +1,11 @@
+{% extends 'dannyapp/base.html' %}
+{% load blog_tags %}
+
+{% block title %}我的履歷{% endblock %}
+
+{% block content %}
+    {% for bio in autobio %}
+        <h1>{{ bio.title }}</h1>
+        <p>{{ bio.body|markdown }}</p>
+    {% endfor %}
+{% endblock %}

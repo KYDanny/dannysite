@@ -1,0 +1,6 @@
+<h2>請在此留言</h2>
+<form action="{% url 'blog:leet_comments' leet.id %}" method='post'>
+    {{ form.as_table }}
+    {% csrf_token %}
+    <p><input type="submit" value="送出"></p>
+</form>

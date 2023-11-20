@@ -1,0 +1,14 @@
+{% extends 'dannyapp/base.html' %}
+{% load blog_tags %}
+
+{% block title%}邱冠諭的網頁{% endblock %}
+
+{% block content%}
+<h1>邱冠諭的網頁</h1>
+{% for logging in loggings %}
+<h2><a href="{{ logging.get_absolute_url }}">{{ logging.title }}</a></h2>
+<p class="date">Created {{ logging.created }}</p>
+<p>{{ logging.body|markdown|truncatewords_html:30|truncatechars_html:40 }}</p>
+{% endfor %}
+{% include "dannyapp/pagination.html" with page=loggings %}
+{% endblock%}

@@ -1,0 +1,27 @@
+{% extends 'dannyapp/base.html' %}
+{% load blog_tags %}
+
+{% block title %}
+讀書隨筆
+{% endblock %}
+
+{% block content %}
+<h1>讀書隨筆</h1>
+    {% if tag %}
+    <h2>Articles tag with {{ tag.name }}</h2>
+    {% endif %}
+    {% for thought in thoughts %}  
+        <h2>
+            <a href="{{ thought.get_absolute_url }}">{{ thought.title }}</a>
+        </h2>
+        <p>{% for tag in thought.tags.all %}
+            <a href="{% url 'blog:thoughts_tag' tag.slug %}">{{ tag.name }}</a>
+            {% if not forloop.last %},{% endif %}
+            {% endfor %}
+        </p>
+        <p>
+            {{ thought.content|markdown|truncatewords_html:30|truncatechars_html:60 }}
+        </p>
+    {% endfor %}
+    {% include 'dannyapp/pagination.html' with page=thoughts %}
+{% endblock %}

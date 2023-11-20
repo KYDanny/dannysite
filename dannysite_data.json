@@ -1,0 +1,1587 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-11-20T13:43:45.287Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "邱冠諭的網站",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-11-20T13:44:10.776Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Python後端工程師求職履歷",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-11-20T13:44:33.684Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "This is the description of this site.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-11-20T13:45:23.006Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "11月3日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-11-20T13:45:38.998Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "11月4日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-11-20T13:45:55.131Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "11月5日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-11-20T13:47:06.771Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "4",
+    "object_repr": "11月6日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-11-20T13:47:20.411Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "5",
+    "object_repr": "11月7日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-11-20T13:47:39.735Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "6",
+    "object_repr": "11月8日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-11-20T13:47:56.932Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "7",
+    "object_repr": "11月9日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-11-20T13:48:18.978Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "8",
+    "object_repr": "11月10日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-11-20T13:48:36.309Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "9",
+    "object_repr": "11月11日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-11-20T13:48:56.734Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "10",
+    "object_repr": "11月12日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-11-20T13:49:13.506Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "11",
+    "object_repr": "11月13日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-11-20T13:49:29.037Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "12",
+    "object_repr": "11月14日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-11-20T13:49:44.653Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "13",
+    "object_repr": "11月15日",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-11-20T14:47:23.779Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Add Two Numbers",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-11-20T14:48:01.652Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Two Sum",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-11-20T14:48:57.684Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Longest Substring Without Repeating Characters",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-11-20T14:49:50.340Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Longest Palindromic Substring",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-11-20T14:56:21.285Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "重心：Center of Gravity",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-11-20T14:56:45.772Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Israel-Hamas War",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-11-20T14:57:13.568Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "The conflict with Russia is not in the interest of the West",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add homepage",
+    "content_type": 7,
+    "codename": "add_homepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change homepage",
+    "content_type": 7,
+    "codename": "change_homepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete homepage",
+    "content_type": 7,
+    "codename": "delete_homepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view homepage",
+    "content_type": 7,
+    "codename": "view_homepage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add resume",
+    "content_type": 8,
+    "codename": "add_resume"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change resume",
+    "content_type": 8,
+    "codename": "change_resume"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete resume",
+    "content_type": 8,
+    "codename": "delete_resume"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view resume",
+    "content_type": 8,
+    "codename": "view_resume"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add site_description",
+    "content_type": 9,
+    "codename": "add_site_description"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change site_description",
+    "content_type": 9,
+    "codename": "change_site_description"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete site_description",
+    "content_type": 9,
+    "codename": "delete_site_description"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view site_description",
+    "content_type": 9,
+    "codename": "view_site_description"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add thoughts",
+    "content_type": 10,
+    "codename": "add_thoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change thoughts",
+    "content_type": 10,
+    "codename": "change_thoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete thoughts",
+    "content_type": 10,
+    "codename": "delete_thoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view thoughts",
+    "content_type": 10,
+    "codename": "view_thoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add log",
+    "content_type": 11,
+    "codename": "add_log"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change log",
+    "content_type": 11,
+    "codename": "change_log"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete log",
+    "content_type": 11,
+    "codename": "delete_log"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view log",
+    "content_type": 11,
+    "codename": "view_log"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add leet",
+    "content_type": 12,
+    "codename": "add_leet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change leet",
+    "content_type": 12,
+    "codename": "change_leet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete leet",
+    "content_type": 12,
+    "codename": "delete_leet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view leet",
+    "content_type": 12,
+    "codename": "view_leet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add comment thoughts",
+    "content_type": 13,
+    "codename": "add_commentthoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change comment thoughts",
+    "content_type": 13,
+    "codename": "change_commentthoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete comment thoughts",
+    "content_type": 13,
+    "codename": "delete_commentthoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view comment thoughts",
+    "content_type": 13,
+    "codename": "view_commentthoughts"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add comment leet",
+    "content_type": 14,
+    "codename": "add_commentleet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change comment leet",
+    "content_type": 14,
+    "codename": "change_commentleet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete comment leet",
+    "content_type": 14,
+    "codename": "delete_commentleet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view comment leet",
+    "content_type": 14,
+    "codename": "view_commentleet"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 15,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 15,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 15,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 15,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 16,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 16,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 16,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 16,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$r3AD0ubhuatrBHpqH1yr8d$idY4c2n4558lprQmxB5yJ5lj9M5KhesRe7wYhErNxgI=",
+    "last_login": "2023-11-20T13:35:18.241Z",
+    "is_superuser": true,
+    "username": "danny",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-11-20T13:34:40.143Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "homepage"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "resume"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "site_description"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "thoughts"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "log"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "leet"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "commentthoughts"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "dannyapp",
+    "model": "commentleet"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gflg87c4g2i15dej2se10szicpbxewv2",
+  "fields": {
+    "session_data": ".eJxVjMsKwyAQAP_FcxFXjI8ee-83hHVXa9qiEJNT6L8XIYf2OjPMIWbctzLvPa3zwuIqQFx-WUR6pToEP7E-mqRWt3WJciTytF3eG6f37Wz_BgV7GdsECj1kMsoEToQ2JvIWXdbBOqcIvMqBNHkiaxVzAO-mSYMCo2Fi8fkC6jQ3bA:1r54Qo:XKkSxaV1EuZe3VxsVVFvlNAXcEXa_ley3w_g26iYs9E",
+    "expire_date": "2023-12-04T13:35:18.261Z"
+  }
+},
+{
+  "model": "dannyapp.homepage",
+  "pk": 1,
+  "fields": {
+    "title": "邱冠諭的網站",
+    "body": "# 您好。感謝您造訪我的網頁。\r\n\r\n我叫**邱冠諭**，是一位退役軍官，曾在軍中服役12年。這段軍旅生涯給了我堅韌的意志、嚴謹的工作態度，以及優秀的團隊協調能力。\r\n\r\n在2023年2月，我決定退伍轉戰職場，追求我對電腦科學的長期熱情。目前，我正在自學**Python**和**Django**，並期望將這些技能應用於軟體開發領域。程式設計的熱愛與問題解決及創新的熱情驅使我不斷前進。\r\n\r\n在自學的旅途上，我不僅累積了實際的程式開發經驗，還學會了如何快速掌握新知識並自我激勵。我的軍事背景加上對程式設計的濃厚興趣，我相信可以在這新的領域發揮我獨特的影響力。\r\n\r\n再次感謝您的來訪，我期待著能夠加入您的團隊，共同成長，並貢獻我的力量。謝謝您。"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 1,
+  "fields": {
+    "title": "11月3日",
+    "slug": "113",
+    "body": "1、建立Homepage model，包含title、slug、body等3個field。  \r\n2、建立homepage view  \r\n3、建立homepage.html和base.html  \r\n4、建立myblog_tags.py並建立custum filter以使用markdown syntax",
+    "complete": "2023-11-20T13:45:07Z",
+    "created": "2023-11-20T13:45:23.004Z",
+    "updated": "2023-11-20T13:45:23.004Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 2,
+  "fields": {
+    "title": "11月4日",
+    "slug": "114",
+    "body": "1、建立Log model、 log view 和 log_detail view.   \r\n2、建立 LogAdmin \r\n3、建立log url  \r\n4、建立Log model的custom manager：CompletedManager",
+    "complete": "2023-11-20T13:45:24Z",
+    "created": "2023-11-20T13:45:38.995Z",
+    "updated": "2023-11-20T13:45:38.995Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 3,
+  "fields": {
+    "title": "11月5日",
+    "slug": "115",
+    "body": "1、建立log_detail的url  \r\n2、將log view和lod_detail view渲染到log.url和log_detail.url  \r\n3、建立Log model的canonical url：在Log model內建立get_absolute_url方法  \r\n4、建立SEO-friendly url (Search Engine Optimization)\r\n5、建立pagination功能",
+    "complete": "2023-11-20T13:45:40Z",
+    "created": "2023-11-20T13:45:55.131Z",
+    "updated": "2023-11-20T13:45:55.131Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 4,
+  "fields": {
+    "title": "11月6日",
+    "slug": "116",
+    "body": "1、新增Leet model\r\n2、建立leet、leet_detail views及其urls\r\n3、為leet 、leet_detail建立SOE友善URL\r\n4、為leet view新增pagination",
+    "complete": "2023-11-20T13:46:00Z",
+    "created": "2023-11-20T13:47:06.769Z",
+    "updated": "2023-11-20T13:47:06.769Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 5,
+  "fields": {
+    "title": "11月7日",
+    "slug": "117",
+    "body": "1、為leet新增tag功能\r\n2、新增文章推薦功能，但遭遇困難。此推薦功能的目的是要在讀者閱讀某篇文章時，下方會跳出4篇推讀者可能也感興趣的文章。我的想法是取得所有tag的id，再用tag的id進行篩選。但遇到id取不到的問題，後來上網查到需用values_list。此推薦功能尚未完成。",
+    "complete": "2023-11-20T13:47:00Z",
+    "created": "2023-11-20T13:47:20.408Z",
+    "updated": "2023-11-20T13:47:20.408Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 6,
+  "fields": {
+    "title": "11月8日",
+    "slug": "118",
+    "body": "1、錯誤:\r\ndef leet_detail(request, year, month, day, leet):\r\n    leet = get_object_or_404(Leet,\r\n                             status=Leet.Status.SOLVED,\r\n                             solve__year=year,\r\n                             solve__month=month,\r\n                             solve__day=day,\r\n                             slug=leet)\r\n    tags_ids = leet.tags.values_list('id', flat=True)\r\n    similar_leets = leet.filter(tags__in=tags_ids).exclude(id=leet.id)\r\n    similar_leets = similar_leets.annotate(same_leets=Count('tags')).order_by('-same_leets', '-solve')[:4]\r\n    comments = leet.Comments.filter(active=True)\r\n    form = CommentLeetForm()\r\n    return render(request, \"myblog/post/leet_detail.html\", {\"leet\":leet, \"comments\":comments,\\\r\n                                                            \"form\":form, \"similar_leets\":similar_leets})\r\n\r\nsimilar_leets = leet.filter(tags__in=tags_ids).exclude(id=leet.id)錯誤，因為leet是Leet model物件，沒有filter field。此時應該用model manager。所以應改成：\r\nsimilar_leets = Leet.objects.filter(tags__in=tags_ids).exclude(id=leet.id)\r\n\r\n2. path('sitemap.xml', sitemap, {\"sitemaps\":sitemaps}, name='django.contrib.sitemaps.views.sitemap')\r\n關於sitemap的url名稱，不一定要'django.contrib.sitemaps.views.sitemap'，這只是一個傳統用法。\r\n\r\n3. sitemap一開始失敗，後來發現原因在於settings.py沒有定義site ID。（要加上SITE_ID=1的設定）\r\n\r\n4.今日為leet加入rss, sitemap和推薦閱讀文章的功能。",
+    "complete": "2023-11-20T13:47:00Z",
+    "created": "2023-11-20T13:47:39.733Z",
+    "updated": "2023-11-20T13:47:39.733Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 7,
+  "fields": {
+    "title": "11月9日",
+    "slug": "119",
+    "body": "1. 今日新增Thoughts model。\r\n2. 過程中，建立get_absolute_url時，reverse(\"myblog:thoughts_detail\", args=[self.id])發生錯誤，因為不熟，寫成reverse(\"myblog:thoughts_detail\", args=self.published.id。這邊只需要單純把文章的id傳過去，並記得args的參數都要在[ ]內。\r\n3. article = get_object_or_404(Thoughts, status=Thoughts.Status.PUBLISHED,\r\n                                publish__year=year,\r\n                                publish__month=month,\r\n                                publish__day=day,\r\n                                slug=article_slug)\r\n此處錯誤為publish的date部分誤用args=[ ]，必需牢記語法。\r\n4. 今日為thought新增2個templates，以顯示全部讀書隨筆文章，及顯示單篇文章。另新增SEO-friendly url，model manager，以及設定admin panel內的顯示內容與方式。",
+    "complete": "2023-11-20T13:47:00Z",
+    "created": "2023-11-20T13:47:56.930Z",
+    "updated": "2023-11-20T13:47:56.930Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 8,
+  "fields": {
+    "title": "11月10日",
+    "slug": "1110",
+    "body": "1. 為讀書隨筆加入分頁，每頁10篇文章。\r\n2. 發現truncatewords和truncatewords_html對中文無效，中文需用truncatechar或truncatechar_html。以下作法可以應負英文和中文兩種語言：\r\n {{ thought.content|markdown|truncatewords_html:30|truncatechars_html:60 }}\r\n3. 在將form的內容輸出到頁面的時候，發現不是以字串方式程現，而是會產生form表格。\r\n    if request.method == 'POST':\r\n        form = EmailThoughtsForm(request.POST)\r\n        if form.is_valid():\r\n            cd = form.cleaned_data\r\n            link = request.build_absolute_uri(thought.get_absolute_url)\r\n            subject = f\"{cd['name']} recommends you to read {thought.title}.\"\r\n            message = (f\"{cd['purpose']}\\n\"\r\n                       f\"{cd['name']}'s comment: {cd['comment']}\\n\"\r\n                       f\"Read {thought.title} at {link}.\")\r\n            send_mail(subject, message, cd['email'], [cd['receiver']])\r\n            sent = True\r\n            \r\n    else:\r\n        form = EmailThoughtsForm()\r\n\r\n    return render(request, \"myblog/post/thoughts_share.html\", {\"thought\":thought,\r\n                                                               \"form\":form, \"sent\":sent,\r\n                                                               \"name\":form.cleaned_data['name'],\r\n                                                               \"purpose\":form.cleaned_data['purpose'],\r\n                                                               \"comment\":form.cleaned_data['comment']})\r\n----------------------------------以下為解決方式-----------------------------------------\r\nif request.method == 'POST':\r\n        form = EmailThoughtsForm(request.POST)\r\n        if form.is_valid():\r\n            cd = form.cleaned_data\r\n            link = request.build_absolute_uri(thought.get_absolute_url)\r\n            subject = f\"{cd['name']} recommends you to read {thought.title}.\"\r\n            message = (f\"{cd['purpose']}\\n\"\r\n                       f\"{cd['name']}'s comment: {cd['comment']}\\n\"\r\n                       f\"Read {thought.title} at {link}.\")\r\n            send_mail(subject, message, cd['email'], [cd['receiver']])\r\n            sent = True\r\n            name = cd['name']\r\n            purpose = cd['purpose']\r\n            comment = cd['comment']\r\n            \r\n    else:\r\n        form = EmailThoughtsForm()\r\n\r\n    return render(request, \"myblog/post/thoughts_share.html\", {\"thought\":thought,\r\n                                                               \"form\":form, \"sent\":sent,\r\n                                                               \"name\":name,\r\n                                                               \"purpose\":pose,\r\n                                                               \"comment\":comment})\r\n4.寄email給對方，希望email內容部分加粗體，需在view內用<strong>，若要換行用\\n是沒用的，需用<br>，但因為<strong>和<br>都是HTML元素，為了使該元素能有作用，在send_main要加上html_message=message。程式碼如下：\r\n subject = f\"{cd['name']} recommends you to read {thought.title}.\"\r\n            message = (f\"{cd['purpose']}<br><br>\"\r\n                       f\"<strong>{cd['name']}'s comment:</strong> {cd['comment']}<br><br>\"\r\n                       f\"Read <strong>{thought.title}</strong> at {link}.\")\r\n            send_mail(subject, message, cd['email'], [cd['receiver']], html_message=message)\r\n5.寄信給對方，希望付連結：\r\nlink = request.build_absolute_uri(thought.get_absolute_url)\r\n再把link當參數放入message(要傳送的內容)裡。\r\n6.今日為thoughts增加comment功能。\r\n7. URL pattern如果一樣，Django會先採用urls.py內從上找下來第一個符合的url pattern。所以url的name一定要不一樣才不會有問題。",
+    "complete": "2023-11-20T13:47:00Z",
+    "created": "2023-11-20T13:48:18.976Z",
+    "updated": "2023-11-20T13:48:18.976Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 9,
+  "fields": {
+    "title": "11月11日",
+    "slug": "1111",
+    "body": "1. 為thoughts新增tags和推薦文章功能。\r\n2.為thoughts的sidebar建立文章數計算、顯示最新文章、顯示熱門文章等3項功能。",
+    "complete": "2023-11-20T13:48:00Z",
+    "created": "2023-11-20T13:48:36.307Z",
+    "updated": "2023-11-20T13:48:36.307Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 10,
+  "fields": {
+    "title": "11月12日",
+    "slug": "1112",
+    "body": "1. 原本要作一個統一的RSS，但因為Thoughts model沒有problem attribute，只能為Leet和Thoughts各自做RSS。但後來問GPT之後，得知可以使用Python的hasattr方法來克服這個問題。以下是class General_feed的部分程式碼：\r\n    def items(self):\r\n        leet_items = Leet.solved.all()[:5]\r\n        thoughts_items = Thoughts.published.all()[:5]\r\n\r\n        combined_items = sorted(chain(leet_items, thoughts_items),\r\n                                key=lambda item: item.solve if hasattr(item, 'solve') else item.publish, reverse=True)\r\n        return combined_items[:10]\r\n上面程式碼的意思是，原則上是item.solve，但如果沒有solve屬性，就改用publish屬性。\r\n\r\n2.將2個model的物件都加入同一個sitemap的方式是，一樣先在sitemap建立2個各自的model，然後再於project的urls.py內定義sitemaps，程式碼如下：\r\nsitemaps = {\r\n    \"LeetSitemap\": LeetSitemap,\r\n    \"ThoughtsSitemap\": ThoughtsSitemap,\r\n}\r\nurlpatterns = [\r\n    path(\"admin/\", admin.site.urls),\r\n    path(\"myblog/\", include('myblog.urls', namespace='myblog')),\r\n    path(\"sitemap.xml\", sitemap, {\"sitemaps\":sitemaps}, name=\"django.contrib.sitemaps.views.sitemap\")\r\n]\r\n\r\n3.今日用admin panel儲存資料，突然無法儲存，並顯示如下錯誤：\r\nTypeError at /admin/myblog/thoughts/add/\r\nattribute name must be string, not 'bool'\r\nRequest Method:\tPOST\r\nRequest URL:\thttp://127.0.0.1:8000/admin/myblog/thoughts/add/\r\nDjango Version:\t4.2.7\r\nException Type:\tTypeError\r\nException Value:\t\r\nattribute name must be string, not 'bool'\r\n經GPT協助後，發現錯誤如下：\r\nslug = models.SlugField(max_length=250, unique_for_date='True')\r\n上列unique_for_date必須指定係依model內哪一個arrtibute，我誤寫成True。修改後如下：\r\nslug = models.SlugField(max_length=250, unique_for_date='complete')。",
+    "complete": "2023-11-20T13:48:00Z",
+    "created": "2023-11-20T13:48:56.731Z",
+    "updated": "2023-11-20T13:48:56.731Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 11,
+  "fields": {
+    "title": "11月13日",
+    "slug": "1113",
+    "body": "1、新增Resume model並輸入履歷。\r\n2、將database從sqLite轉到postgresql時，遇到以下問題：\r\nCould not load contenttypes.ContentType(pk=11): duplicate key value violates unique constraint \"django_content_type_app_label_model_76bd3d3b_uniq\"\r\nDETAIL:  Key (app_label, model)=(taggit, tag) already exists.\r\n此問題原因是：\r\nThe fixture contains data that already exists in the database, particularly for tables that enforce uniqueness constraints.\r\nYou're attempting to load a fixture into a database that already has some of the same data that the fixture contains.\r\n解決方式：\r\npython manage.py shell\r\nfrom django.contrib.contenttypes.models import ContentType\r\nContentType.objects.all().delete()\r\n說明：\r\nClear the Table: If you're sure that it's safe to do so (i.e., you don't need the existing data in the database), you can clear the django_content_type table before loading the fixture. Be cautious with this approach, as it will remove data that could be in use by your Django application.\r\n3、新增在Leet如Thoughts內搜尋關鍵字的功能，但時常搜尋不到，演算法須再調整。\r\n4、今日遇到最大的問題在於如何將2個以下model整合在同一個TrigramSimilarity。後來作法是先產生各自的TrigramSimilarity，再用chain方法將多個TrigramSimilarity整合成一個，並將其轉成list，再用sorted方法，依相似度排序。\r\n5、今日下午開始著手讓網頁上線的工作，目前完成base.py、local.py、prod.py",
+    "complete": "2023-11-20T13:48:00Z",
+    "created": "2023-11-20T13:49:13.503Z",
+    "updated": "2023-11-20T13:49:13.503Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 12,
+  "fields": {
+    "title": "11月14日",
+    "slug": "1114",
+    "body": "1、今日在該網頁上線的前置工作上遇到很大的困難。",
+    "complete": "2023-11-20T13:49:00Z",
+    "created": "2023-11-20T13:49:29.035Z",
+    "updated": "2023-11-20T13:49:29.035Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.log",
+  "pk": 13,
+  "fields": {
+    "title": "11月15日",
+    "slug": "1115",
+    "body": "1、這2天完成以下工作：\r\na.建立dockerfile、requirements.txt、docker-compse.yml\r\nb.建立production environment的Postgresql資料庫，並建立superuser\r\nc.加入uWSGI和NGINX\r\nd.將production的域名改為mysiteproject\r\ne.執行collectstatic，使production可以使用static file\r\nf.運用SSL\r\n2、本階段遇到困難有2點：\r\na. 在建立SSL/TLS certificate時，發生openssl.cnf檔案不存在。經研究後，發現這個問題只存在window系統，mac和linux不會有這個問題。解決方式是在github上找現成的檔案來用，或是用電腦內其他檔案的openssl.cnf。\r\nb. 在測試時，發現文字搜尋功能在productiont環境不能用，但在development仍可正常運作。經研究後，發現是 pg_trgm在production環境沒做extension。解決方式是到production的database中作pg_trgm的extension。",
+    "complete": "2023-11-20T13:49:00Z",
+    "created": "2023-11-20T13:49:44.651Z",
+    "updated": "2023-11-20T13:49:44.651Z",
+    "status": "C"
+  }
+},
+{
+  "model": "dannyapp.leet",
+  "pk": 1,
+  "fields": {
+    "title": "Add Two Numbers",
+    "slug": "add-two-numbers",
+    "problem": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.\r\n\r\nYou may assume the two numbers do not contain any leading zero, except the number 0 itself.\r\n\r\nExample 1:\r\nInput: nums = [2,7,11,15], target = 9\r\nOutput: [0,1]\r\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\r\n\r\nExample 2:\r\nInput: nums = [3,2,4], target = 6\r\nOutput: [1,2]\r\n\r\nExample 3:\r\nInput: nums = [3,3], target = 6\r\nOutput: [0,1]",
+    "solution": "# Definition for singly-linked list.\r\nclass ListNode:\r\n    def __init__(self, val=0, next=None):\r\n        self.val = val\r\n        self.next = next\r\n        \r\n    def __str__(self):\r\n        return str(self.val)\r\n        \r\ndef addTwoNumbers(l1, l2):\r\n    # Initialize current node to dummy head of the result list.\r\n    dummy_head = ListNode(0)\r\n    current = dummy_head\r\n    carry = 0\r\n    \r\n    # Loop through lists l1 and l2 until you reach both ends.\r\n    while l1 or l2:\r\n        # At the start of each iteration, we should add carry from last iteration.\r\n        total_sum = carry\r\n        \r\n        # Add l1 and l2 values to the sum if they are present.\r\n        if l1:\r\n            total_sum += l1.val\r\n            l1 = l1.next\r\n        if l2:\r\n            total_sum += l2.val\r\n            l2 = l2.next\r\n        \r\n        # Update carry for next calculation.\r\n        carry = total_sum // 10\r\n        \r\n        # Update the result list.\r\n        current.next = ListNode(total_sum % 10)\r\n        current = current.next\r\n    \r\n    # In case the final sum has a carry, create an additional node.\r\n    if carry > 0:     \r\n        current.next = ListNode(carry)\r\n    return dummy_head.next\r\n\r\ndef list_to_linkedlist(lst):\r\n    dummy_head = ListNode(0)\r\n    current = dummy_head\r\n    for val in lst:\r\n        current.next = ListNode(val)\r\n        current = current.next\r\n    return dummy_head.next\r\n\r\ndef linkedlist_to_list(head):\r\n    lst = []\r\n    current = head\r\n    while current:\r\n        lst.append(current.val)\r\n        current = current.next\r\n    return lst\r\n\r\n# Convert Python lists to linked lists\r\nl1_linked = list_to_linkedlist([2,4,3])\r\nl2_linked = list_to_linkedlist([5,6,4])\r\n\r\n# Perform the addition\r\nresult_linked = addTwoNumbers(l1_linked, l2_linked)\r\n\r\n# Convert result linked list back to Python list (optional)\r\nresult_list = linkedlist_to_list(result_linked)\r\nprint(result_list)",
+    "author": 1,
+    "solve": "2023-11-20T14:45:00Z",
+    "created": "2023-11-20T14:47:23.765Z",
+    "updated": "2023-11-20T14:47:23.765Z",
+    "status": "SV",
+    "level": "M"
+  }
+},
+{
+  "model": "dannyapp.leet",
+  "pk": 2,
+  "fields": {
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "problem": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.\r\n\r\nYou may assume that each input would have exactly one solution, and you may not use the same element twice.\r\n\r\nYou can return the answer in any order.\r\n\r\nExample 1:\r\n\r\nInput: nums = [2,7,11,15], target = 9\r\nOutput: [0,1]\r\nExplanation: Because nums[0] + nums[1] == 9, we return [0, 1].\r\nExample 2:\r\n\r\nInput: nums = [3,2,4], target = 6\r\nOutput: [1,2]\r\nExample 3:\r\n\r\nInput: nums = [3,3], target = 6\r\nOutput: [0,1]",
+    "solution": "def solution(alist, atarget):\r\n    for i in range(len(alist)):\r\n        for j in range(len(alist)):\r\n            if i != j and alist[i] + alist[j] == atarget:\r\n                return [i, j]\r\n    \r\n\r\nnums = [3, 3]\r\ntarget = 6\r\n#print(len(nums))\r\n\r\nanswer = solution(nums, target)\r\nprint(answer)",
+    "author": 1,
+    "solve": "2023-11-20T14:47:00Z",
+    "created": "2023-11-20T14:48:01.643Z",
+    "updated": "2023-11-20T14:48:01.643Z",
+    "status": "SV",
+    "level": "E"
+  }
+},
+{
+  "model": "dannyapp.leet",
+  "pk": 3,
+  "fields": {
+    "title": "Longest Substring Without Repeating Characters",
+    "slug": "longest-substring-without-repeating-characters",
+    "problem": "Given a string s, find the length of the longest substring without repeating characters.\r\n\r\nExample 1:\r\n\r\nInput: s = \"abcabcbb\"\r\nOutput: 3\r\nExplanation: The answer is \"abc\", with the length of 3.\r\nExample 2:\r\n\r\nInput: s = \"bbbbb\"\r\nOutput: 1\r\nExplanation: The answer is \"b\", with the length of 1.\r\nExample 3:\r\n\r\nInput: s = \"pwwkew\"\r\nOutput: 3\r\nExplanation: The answer is \"wke\", with the length of 3.\r\nNotice that the answer must be a substring, \"pwke\" is a subsequence and not a substring.",
+    "solution": "def longest_palindrome(s):\r\n    if not s:\r\n        return \"\"\r\n\r\n    n = len(s)\r\n    # Create a 2D table to store palindrome information.\r\n    dp = [[False] * n for _ in range(n)]\r\n\r\n    start = 0  # Start index of the longest palindromic substring.\r\n    max_length = 1  # Maximum length of a palindrome substring (at least 1 for single characters).\r\n\r\n    # All individual characters are palindromes.\r\n    for i in range(n):\r\n        dp[i][i] = True\r\n\r\n    # Check for palindromes of length 2.\r\n    for i in range(n - 1):\r\n        if s[i] == s[i + 1]:\r\n            dp[i][i + 1] = True\r\n            start = i\r\n            max_length = 2\r\n\r\n    # Check for palindromes of length greater than 2.\r\n    for length in range(3, n + 1):\r\n        for i in range(n - length + 1):\r\n            j = i + length - 1  # Ending index of the current substring.\r\n            if s[i] == s[j] and dp[i + 1][j - 1]:\r\n                dp[i][j] = True\r\n                if length > max_length:\r\n                    start = i\r\n                    max_length = length\r\n\r\n    return s[start:start + max_length]\r\n\r\n# Example usage:\r\ns1 = \"babad\"\r\ns2 = \"cbbd\"\r\nprint(longest_palindrome(s1))  # Output: \"bab\" or \"aba\"\r\nprint(longest_palindrome(s2))  # Output: \"bb\"",
+    "author": 1,
+    "solve": "2023-11-20T14:48:00Z",
+    "created": "2023-11-20T14:48:57.671Z",
+    "updated": "2023-11-20T14:48:57.671Z",
+    "status": "SV",
+    "level": "M"
+  }
+},
+{
+  "model": "dannyapp.leet",
+  "pk": 4,
+  "fields": {
+    "title": "Longest Palindromic Substring",
+    "slug": "longest-palindromic-substring",
+    "problem": "Given a string s, return the longest palindromic substring in s.\r\n\r\nExample 1:\r\n\r\nInput: s = \"babad\"\r\nOutput: \"bab\"\r\nExplanation: \"aba\" is also a valid answer.\r\nExample 2:\r\n\r\nInput: s = \"cbbd\"\r\nOutput: \"bb\"\r\n \r\n\r\nConstraints:\r\n\r\n1 <= s.length <= 1000\r\ns consist of only digits and English letters.",
+    "solution": "def longest_palindrome(s):\r\n    s_length = len(s)\r\n    start_index = 0\r\n    max_string_length = 1 #a character is palindrome on itself\r\n    dp_table = [[False] * s_length for _ in range(s_length)]\r\n    \r\n    #for single character being palindrome on itself\r\n    for i in range(s_length):\r\n        dp_table[i][i] = True\r\n        \r\n    #for palindromes with at least 2 characters\r\n    for i in range(s_length - 1):\r\n        if s[i] == s[i+1]:\r\n            dp_table[i][i+1] = True\r\n            start_index = i\r\n            max_string_length = 2\r\n            \r\n    #for palindromes with characters more than 2\r\n    for length in range(3, s_length + 1):\r\n        for i in range(s_length - length + 1):\r\n            j = i + length - 1\r\n            \r\n            if s[i] == s[j] and dp_table[i+1][j-1]: #check if the inner substring is also a palindrome\r\n                dp_table[i][j] = True\r\n                if length > max_string_length:\r\n                    start_index = i\r\n                    max_string_length = length\r\n    return s[start_index:start_index + max_string_length]\r\n                           \r\ns1 = \"babad\"\r\ns2 = \"cbbd\"\r\nresult1 = longest_palindrome(s1)\r\nresult2 = longest_palindrome(s2)\r\nprint(result1)\r\nprint(result2)",
+    "author": 1,
+    "solve": "2023-11-20T14:49:00Z",
+    "created": "2023-11-20T14:49:50.332Z",
+    "updated": "2023-11-20T14:49:50.332Z",
+    "status": "SV",
+    "level": "M"
+  }
+},
+{
+  "model": "dannyapp.commentleet",
+  "pk": 1,
+  "fields": {
+    "leet": 2,
+    "name": "邱冠諭",
+    "email": "chiou.kuan.yih@gmail.com",
+    "content": "test",
+    "created": "2023-11-20T14:50:10.204Z",
+    "updated": "2023-11-20T14:50:10.204Z",
+    "active": true
+  }
+},
+{
+  "model": "dannyapp.commentleet",
+  "pk": 2,
+  "fields": {
+    "leet": 2,
+    "name": "邱冠諭",
+    "email": "chiou.kuan.yih@gmail.com",
+    "content": "test2",
+    "created": "2023-11-20T14:50:21.048Z",
+    "updated": "2023-11-20T14:50:21.048Z",
+    "active": true
+  }
+},
+{
+  "model": "dannyapp.thoughts",
+  "pk": 1,
+  "fields": {
+    "title": "重心：Center of Gravity",
+    "slug": "center-of-gravity",
+    "author": 1,
+    "content": "關於戰爭的物質力量。德國克勞塞維茲在經歷過拿破崙戰爭之後，總結拿破崙的戰略戰術，提出重心（center of gravity)的概念。\r\n在軍事術語上，攻擊叫重心，防禦叫重點。意思就是，必須在戰線的某一點上集中優勢兵力，從那個點突穿敵軍防線。\r\n突穿之後看狀況，要擴大突破口，或是繼續深入敵軍後方切斷補給線。\r\n這個思想的重點是，即使我軍總體力量小於敵軍，但如果能在戰線其他地方用劣勢兵力牽制敵軍優勢兵力，同時在某一個關鍵點上集中優勢兵力突破敵人防線，就能迫使敵軍撤退。\r\n\r\n烏克蘭現在最大問題在於無法在戰線某一點集中優勢兵力，因為他們剛訓練好的部隊都必須立刻投入戰場，易投入戰場後就開始消耗了。他們要贏必須要能訓練一直龐大的部隊，而且這支部隊不能立刻投入戰場，必須等到戰力夠強，在天時地利人和的配合下，突然出現在戰場某處，在該處對俄軍行程絕對優勢，一舉突破俄軍防線。\r\n\r\n烏克蘭現在處境其實跟拿破崙有點像。都是處在內線，而且兵力處於劣勢。\r\n拿破崙會贏，是因為當時法軍的機動性比較高。法軍當時能提高機動性是因為發明了「師」的組織。\r\n「師」有自己獨立的後勤，各個師要自己想辦法處理後勤的問題，不用等後方統一調配。結果就是法軍靠搶劫補充物資。吃敵人穿敵人。\r\n另一個就是加快部隊腳程。當時法軍走路比其他國家軍隊快。\r\n拿破崙就是靠著輕省的後勤加上機動性，在內線的位置，先用少數兵力牽制敵軍，同時集中優勢兵力在某處，先把某處敵軍打殘，主力在快速機動到另一處，把被牽制的敵軍消滅。\r\n\r\n這個思想被普魯士繼承。所以一戰開始之前，普軍參謀長西里芬提出一個將90%重兵壓在低地國，10%在阿登森林的極端計畫。他的構想是在低地國對法軍形成絕對優勢，從荷比盧突穿法軍防線。但後來普魯士高層擔心法軍從阿登一帶發動攻擊，所以重新調整計畫，結果變成普軍左右兩翼兵力差不多。戰爭就變成僵局。\r\n\r\n德國在二戰前記取這個教訓，本來也是把絕對優勢兵力壓在荷比盧（右翼），當時興登堡很反對，但他的意見沒人理，剛好有次逮到機會遇到希特勒，直接項元首報告，希特勒因為很不爽自己無法插手軍隊事務，一聽到興登堡獻技，就直接對國防部說「他」構思了一個計畫，要軍隊配合。\r\n這個計畫是將德軍區分成A，B，C三個集團軍，A集團軍以步兵為主，在砲兵支援下從右翼攻擊英法在荷比盧的防線，目的在吸引英法主力並將其牽制在德軍右翼。C集團軍在左翼，以後備人員為主，於攻擊發起時在左翼山區對馬奇諾防線發起攻擊，目的在使英法聯軍認為C集團軍是佯攻，A集團軍是主力，讓英法聯軍對他們的戰略判斷更合理化。B集團軍才是真正的主力，以戰車為主，目的在C集團軍發起攻擊後，在C集團軍的掩護下於阿登森林集中絕對優勢兵力，從阿登森林繞過馬奇諾防線，進入馬奇諾防線後方平原區域後，往左右兩翼擴大突破口。\r\n當時德軍內的高階老人都反對，但年輕的軍官為求升官都支持希特勒的方案（其實是興登堡的）。\r\n\r\n後來德軍參謀本部心不甘情不願的照著元首的指導走，果然在諾曼第地區的英法聯軍以為德軍要像一戰時那樣在荷比盧突破，所以聯軍主力直接開入比利時。\r\n德軍B集團軍的前鋒指揮官是古德林，他指揮裝甲部隊穿越阿登森林，發現法軍因為認為森林地區不適合裝甲車機動，並沒有在這一帶部署重兵，所以古德林的部隊在掃除一些零星抵抗後，在戰爭的第一天就抵達馬奇諾防線後方。\r\n本來古德林依計畫應該要往左右兩翼擴大突破口，讓其他德軍部隊突破馬奇諾防線，但他卻突然有一個大膽的想法。\r\n古德林沒有依計畫擴大突破口，他反而帶領部隊一路往前衝，衝到色當的時候，法國都慌了，因為主力全在比利時，法國國內部隊只剩一支巴黎的衛戍部隊而已。德軍高層也慌了，因為這是人類戰史上前所為見情況，他們沒想到戰車部隊可以推進得如此迅速，他們擔心後勤跟不上，所以連下好幾道命令要古德林停下來。\r\n但古德林只是前面1天放慢速度而已，他之後又再加速往大西洋的方向衝過去，就在開戰後1個多禮拜，古德林抵達大西洋，完全切斷在比利時的英法主力後方補給線。古德林到大西洋後轉北，往英法主力後方推進，所以英國才緊急派海軍去救陸軍，這就是著名的敦克爾克大撤退。\r\n英法聯軍主力在開戰後2星期內被德軍全殲。開戰後3週法國全面淪陷。\r\n\r\n至於馬奇諾防線，因為後勤補給全斷，在比利時的主力也被滅，就投降了。\r\n整場戰役，法國投資鉅額國防預算的馬奇諾防線沒起到什麼作用。\r\n\r\n這就是「攻擊重心」最常被用的教材。",
+    "publish": "2023-11-20T14:55:00Z",
+    "created": "2023-11-20T14:56:21.270Z",
+    "updated": "2023-11-20T14:56:21.271Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "dannyapp.thoughts",
+  "pk": 2,
+  "fields": {
+    "title": "Israel-Hamas War",
+    "slug": "israel-hamas-war",
+    "author": 1,
+    "content": "The conflicts between Israel and Hamas is now raging.  I would say it is a conflict between Israel and Hamas, rather than refering to it as Isaerl-Palestine conflict or war is because Palestine is devided into two political entities, the east is controlled by Fatah, and the west is under control of Hamas.\r\n\r\nThe differences between Hamas and Fatah lies in thier attitude towards Israel and the stathood of Palestine. Hamas is a radical terrorist group, which persist on resorting to violence to solve the Israel-Palestine problem, while Fatah chooses deplomatic efforts to resolve its problems with Israel. \r\n\r\nI think all of the parties has their logic and stance in this ever-lasting conflct. Israel refuses peace talks and insisted that all the Palestinian land belongs to the territory of Israel. Because they had totally win the wars with Palestine and its Arab allies. Israel see no needs to step back when Palestine has been totally defeated. \r\n\r\nFatah knows it has no military and economic means to fight Israel and decided to rely on Internation Politics. This is understandable. Hamas, seeing all the humiliation Israel put on Fatah, believes that the only consequence of bowing low to Israel will only give Israel the chance of taking all the Palestinian lands; so they decided to resort to violence. \r\n\r\nThe way each side chooses are all understandable and logical, but logic can't seem to bring peace to human beings.",
+    "publish": "2023-11-20T14:56:00Z",
+    "created": "2023-11-20T14:56:45.756Z",
+    "updated": "2023-11-20T14:56:45.756Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "dannyapp.thoughts",
+  "pk": 3,
+  "fields": {
+    "title": "The conflict with Russia is not in the interest of the West",
+    "slug": "the-conflict-with-russia-is-not-in-the-interest-of-the-west",
+    "author": 1,
+    "content": "Ukraine is not in the interest of the West. I said so not because I think the West is not interested in Ukraine at this point of time. I’m saying so is because I think the West provoking Russia by promising Ukraine NATO membership is a strategic mistake.\r\n\r\nIn the long history of the West, controlling choke points and communication lines on the sea is the key to the prosperity of the West. Ukraine is located in the middle of easter Europe, the only sea its influence is the Black Sea. The West has no big national or strategic interest in this area. \r\n\r\nThe only consequence of promising Ukraine with NATO membership is not a more prosperous and secured West nor more benefits for Ukraine, but is a provoked Russia, whose national defense is bleakly threatened. We should know that the Russia needs to keep the Black Sea under its control to defend its oil and other energy resources in Caucasus. If Ukraine join NATO, that means NATO will be able to deploy warships in the Black Sea, which will make control of the Black Sea impossible to Russia. \r\n\r\nHence, the West should pull out from Ukraine and put more focus on choke points in the South China Sea and Taiwan Strait. That means, the biggest adversary of the West is not Russia. It’s China. The West is picking the wrong enemy.",
+    "publish": "2023-11-20T14:56:00Z",
+    "created": "2023-11-20T14:57:13.557Z",
+    "updated": "2023-11-20T14:57:13.557Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "dannyapp.site_description",
+  "pk": 1,
+  "fields": {
+    "describe": "本網站區分3個區塊，分別為上方的navigablebar，下方左側的主內容，以及駐內容右側的sidebar。本說明將依navigablebar從左至右進行說明：\r\n首先為本網站首頁。該頁面為我的個人簡介，再次為我的履歷，接續為本網站的說明，就是您目前所在的頁面。第四項要說明的是「工程日誌」，這是我在開發本網站的過程中，每日所做的開發紀錄。Leetcode欄是我於開發網頁之餘，為提升程式能力，刷了幾題Leetcode，於是把題目和解答放到我的部落格上，供以後復習。最右邊的讀書隨筆是我平時看書和報章雜誌所獲得的心得感想。\r\n\r\n頁面在邊的sidebar，最上方是本部落格最新的10篇文章匯總，下方是Leetcode文章數量、最路及熱門文章、RSS，再下方的讀書隨筆在編排上也是依此順序；最下面的工程日誌因規劃未來不顯示給造訪本部落格的人看，只供我自己紀錄用，所以未加入最新和熱門文章的推薦閱讀，也沒有RSS，只顯示最近期編日誌。\r\n\r\n本部落格所要展現的技術如下：  \r\n1、\tTag的運用：在Leetcode和讀書隨筆的文章頁面，都有顯示tag，在每篇文章下方有「你可能也感興趣的文章」一欄，該欄會羅列4篇文章，所顯示的文章，係藉由計算每篇文章的tag種類而得出。即藉由比較各文章的tag重疊程度，程度越高者位置在越上方。  \r\n2、\t在Leetcode和讀書隨筆文章下方有「分享」或「Share by Email」連結，點入後可依跳出表單頁面填寫相關內容，將文章分享給好友。  \r\n3、\tLeetcode和讀書隨筆頁面最下方還有留言功能，讀者可依表格輸入資料後，按「submit」或「送出」進行留言。若留言成功。會跳出留言成功的畫面，文章頁面上「共〇則留言」欄位會自動增加留言數。  \r\n4、\t在Leetcode頁面，會顯示題目難易度，區分easy、medium、hard三程度，顏色分別為綠、橘、藍。  \r\n5、\t若有新增文意，頁面右邊區塊會自動更新最新5篇文章。  \r\n6、\t若留言數改變，頁面右邊區塊會自動更新最熱門的5篇文章。  \r\n7、\tLeetcode和讀書隨筆各自有自己的RSS，可顯示各自區塊的最新5篇文章。在右邊區塊最上方有總RSS，匯整上列2區塊的最新文章。    \r\n8、\tSitemap功能：只要在網站URL後方加上sitemap.xml即可看到本站的Sitemap。"
+  }
+},
+{
+  "model": "dannyapp.resume",
+  "pk": 1,
+  "fields": {
+    "title": "Python後端工程師求職履歷",
+    "body": "# 邱冠諭   Danny Chiou\r\n* Email: chiou.kuan.yih@gmail.com.tw\r\n* Phone: 0978-225-472\r\n* Location: New Taipei City, Tamsui District\r\n\r\n## Profile Summary\r\nFormer Military Officer with 12 years of experience, now transitioning into the field of programming. Adept in Python, Django, Redis, Docker, and PostgreSQL. Strong background in leadership, strategic planning, and team management. Fluent in English and Mandarin, with high proficiency scores in TOEIC (960) and TOEFL (103).\r\n\r\n## Education\r\n- Master's Degree, Translation Studies, National Taiwan Normal University\r\n- Bachelor's Degree, International Business, Ming Chuan University\r\n- Bachelor's Degree, Political Science, Army Officer’s Academy\r\n\r\n## Professional Experience\r\n### Military Police Officer (Rank: Major)\r\nRoles: Platoon Leader, Company Commander, Operations Officer, Personnel Officer, Foreign Affairs Liaison Officer\r\nKey Achievements: [List 2-3 major achievements or responsibilities]\r\n\r\n## Technical Skills\r\n- **Programming Languages:** Python\r\n- **Web Development:** Django\r\n- **Database Management:** PostgreSQL\r\n- **Other Tools:** Redis, Docker\r\n\r\n## Languages\r\n- **English:** TOEFL – 103, TOEIC – 960\r\n- **Mandarin:** Native",
+    "activated": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "add",
+    "slug": "add"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "Longest_Substring",
+    "slug": "longest_substring"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "substring",
+    "slug": "substring"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "palindrome",
+    "slug": "palindrome"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "military",
+    "slug": "military"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "ww2",
+    "slug": "ww2"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "strategy",
+    "slug": "strategy"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Hamas",
+    "slug": "hamas"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Israel",
+    "slug": "israel"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Palestine",
+    "slug": "palestine"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 11,
+  "fields": {
+    "name": "middle east",
+    "slug": "middle-east"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 12,
+  "fields": {
+    "name": "international relations",
+    "slug": "international-relations"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 1,
+    "content_type": 12,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 1,
+    "content_type": 12,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 2,
+    "content_type": 12,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 3,
+    "content_type": 12,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 3,
+    "content_type": 12,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 12,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 5,
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 6,
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 7,
+    "content_type": 10,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 8,
+    "content_type": 10,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 9,
+    "content_type": 10,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 10,
+    "content_type": 10,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 11,
+    "content_type": 10,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 12,
+    "content_type": 10,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 15,
+  "fields": {
+    "tag": 7,
+    "content_type": 10,
+    "object_id": 3
+  }
+}
+]

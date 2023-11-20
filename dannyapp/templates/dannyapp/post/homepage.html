@@ -1,0 +1,11 @@
+{% extends 'dannyapp/base.html' %}
+{% load blog_tags %}
+
+{% block title %}Danny's Place{% endblock %}
+
+{% block content %}
+{% for post in posts %}
+<h1>{{ post.title }}</h1>
+<p>{{ post.body|markdown }}</p>
+{% endfor %}
+{% endblock %}

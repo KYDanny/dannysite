@@ -1,0 +1,62 @@
+{% load blog_tags %}
+{% load static %}  
+<!DOCTYPE html>
+<html lang="zh-hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static 'css/blog.css' %}" rel="stylesheet">
+    {% block css %} {% endblock %}
+    
+</head>
+<body>
+    <div class="navigablebar">
+        <ul>
+            <li><a href="{% url 'blog:homepage' %}">首頁</a></li>
+            <li><a href="{% url 'blog:resume' %}">履歷</a></li>
+            <li><a href="{% url 'blog:description' %}">本網站說明</a></li>
+            <li><a href="{% url 'blog:log' %}">工程日誌</a></li>
+            <li><a href="{% url 'blog:leet' %}">LeetCode</a></li>
+            <li><a href="{% url 'blog:thoughts' %}">讀書隨筆</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        {% block content%}
+        {% endblock %}
+    </div>
+
+    <div id="sidebar">
+        <h1>Welcome to my blog</h1>
+        <p style="font-size:20px"><a href="{% url 'blog:general_feed' %}">最新文章匯集</a></p>
+        <p style="font-size:20px"><a href="{% url 'blog:post_search' %}">關鍵字搜尋</a></p>
+
+        <h4 style="background: #555; color:white; font-size:25px">Leetcode題解</h4>
+        <p>LeetCode題解共 {% total_leets %} 篇</p>
+        <p style="font-size:20px">最新文章</p>
+        <p>{% latest_leets %}</p>
+        <p style="font-size:20px">熱門文章</p>
+        <p>{% most_commented_leets %}</p>
+        <p style="font-size:20px"><a href="{% url 'blog:latest_leet_feed' %}">RSS Feed</a></p>
+       
+        <h4 style="background: #555; color:white; font-size:25px">讀書隨筆</h4>
+        <p>讀書隨筆共 {% total_thoughts %} 篇</p>
+        <p style="font-size:20px">最新文章</p>
+        <p>{% latest_thoughts %}</p>
+        <p style="font-size:20px">熱門文章</p>
+        {% most_commented_thoughts as hot_thoughts %}
+        <ul>
+        {% for thought in hot_thoughts %}
+        <li><a href="{{ thought.get_absolute_url }}">{{ thought.title }}</a></li>
+        {% endfor %}
+        </ul>
+        <p style="font-size:20px"><a href="{% url 'blog:latest_thoughts_feed' %}">RSS Feed</a></p>
+
+        <h4 style="background: #555; color:white; font-size:25px">工程日誌</h4>
+        <p>工程日誌共 {% total_logs %} 篇</p>
+        <p style="font-size:20px">最新文章</p>
+        <p>{% latest_logs %}</p>
+    </div>
+</body>
+</html>

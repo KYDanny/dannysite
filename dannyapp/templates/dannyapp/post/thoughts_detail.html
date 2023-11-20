@@ -1,0 +1,33 @@
+{% extends 'dannyapp/base.html' %}
+{% load blog_tags %}
+
+{% block title %}單篇隨筆{% endblock %}
+
+{% block content %}
+<h1>{{ article.title }}</h1>
+<p class="date">Published {{ article.publish }} by {{ article.author }}</p>
+{{ article.content|markdown }}
+<h3><a href="{% url 'blog:thought_share' article.id %}">Share by Email</a></h3>
+
+<h2>Articles you may enjoy</h2>
+{% for article in related_articles %} 
+<h3><a href="{{ article.get_absolute_url }}">{{ article.title }}</a></h3>
+{% empty %}
+<h3>There is no similar articles</h3>
+{% endfor %}
+
+<h2>{{ comments.count }} comment{{ comments|pluralize }}</h2>
+{% for comment in comments %}
+<div class="comment">
+    <p class="info">
+        Comment {{ forloop.counter }} by {{ comment.name }} {{ comment.created }}
+    </p>
+    {{ comment.content|linebreaks }}
+</div>
+{% empty %}
+<p>There is no comment yet</p>
+<br><br>
+<h3>Add a new comment</h3>
+{%　endfor %}
+{% include 'dannyapp/post/includes/thoughts_comment_form.html' %}
+{% endblock %}

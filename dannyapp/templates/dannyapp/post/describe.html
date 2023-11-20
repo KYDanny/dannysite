@@ -1,0 +1,11 @@
+{% extends 'dannyapp/base.html' %}
+{% load blog_tags %}
+
+{% block title%}本網站說明{% endblock %}
+
+{% block content %}
+<h1>本網站說明</h1>
+{% for item in describes %}
+<p>{{ item.describe|markdown }}</p>
+{% endfor %}
+{% endblock %}

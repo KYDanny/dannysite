@@ -1,0 +1,44 @@
+{% extends 'dannyapp/base.html' %}
+{% load static %}
+{% load blog_tags %}
+
+{% block title %}LeetCode單題頁面{% endblock %}
+
+{% block css %}<link href="{% static 'css/leet.css' %}" rel="stylesheet">{% endblock %}
+
+{% block content %}
+<h1>{{ leet.title }}</h1>
+{% if leet.level == 'E' %}
+<p class="level-display level-easy">Level: {{ leet.level|capfirst }}</p>
+{% elif leet.level == 'M' %}
+<p class="level-display level-medium">Level: {{ leet.level|capfirst }}</p>
+{% elif leet.level == 'H' %}
+<p class="level-display level-medium">Level: {{ leet.level|capfirst }}</p>
+{% endif %}
+<p class="date">Solved {{ leet.solve }} by {{ leet.author }}</p>
+<h2>問題與說明</h2>
+{{ leet.problem|markdown }}
+<h2>解答</h2>
+{{ leet.solution|linebreaks }}
+
+<h2>
+<a href="{% url 'blog:leet_share' leet.id %}">分享</a>
+</h2>
+<h2>共{{ comments.count }}則留言</h2>
+{% for comment in comments %}
+<div class="comment">
+<p class="info">第{{ forloop.counter }}則留言作者為{{ comment.name }}，留言時間為{{ comment.created }}</p>
+{{ comment.content|linebreaks }}
+</div>
+{% empty %}
+<p>目前沒有留言</p>
+{% endfor %}
+<h2>你可能也感興趣的文章</h2>
+{% for similar_leet in similar_leets %}
+<p><a href="{{ similar_leet.get_absolute_url }}" >{{ similar_leet }}</a></p>
+{% empty %}
+<p>沒有類似主題的文章</p>
+{% endfor %}
+{% include 'dannyapp/post/includes/leet_comment_form.html' %}
+
+{% endblock %}

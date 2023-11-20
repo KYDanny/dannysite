@@ -1,0 +1,5 @@
+<ul>
+    {% for latest in latests %}  
+    <li><a href="{{ latest.get_absolute_url }}">{{ latest.title }}</a></li>
+    {% endfor %}
+</ul>

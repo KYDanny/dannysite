@@ -1,0 +1,5 @@
+<ul>
+    {% for thought in latest %}
+        <li><a href="{{ thought.get_absolute_url }}">{{ thought.title }}</a></li>
+    {% endfor %}
+</ul>

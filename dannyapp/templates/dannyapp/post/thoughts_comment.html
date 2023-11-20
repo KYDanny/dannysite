@@ -1,0 +1,13 @@
+{% extends 'dannyapp/base.html' %}
+
+{% block title %}Leave Comments{% endblock %}
+
+{% block content %}
+    {% if comment %}
+        <h2>Your comment has been added.</h2>
+        <a href="{{ thought.get_absolute_url }}">Back to post</a>
+    {% else %}
+        {% include 'dannyapp/post/thoughts_comment_form.html' %}
+    {% endif %}
+{% endblock %}
+

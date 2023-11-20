@@ -1,0 +1,6 @@
+<h2>Leave a comment</h2>
+<form action="{% url 'blog:thoughts_comments' article.id %}" method='post'>
+    {{ form.as_table }}
+    {% csrf_token %}  
+    <p><input type="submit" value="Submit"></p>
+</form>

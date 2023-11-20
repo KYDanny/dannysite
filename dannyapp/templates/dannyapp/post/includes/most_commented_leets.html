@@ -1,0 +1,5 @@
+<ul>
+    {% for leet in most_commented %}
+    <li><a href="{{ leet.get_absolute_url }}">{{ leet.title }}</a></li>
+    {% endfor %}
+</ul>

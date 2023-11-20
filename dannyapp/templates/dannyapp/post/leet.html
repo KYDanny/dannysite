@@ -1,0 +1,32 @@
+{% extends 'dannyapp/base.html' %}
+{% load static %}
+{% load blog_tags %}
+
+{% block title %}LeetCode問題與解答{% endblock %}
+
+{% block css %}<link href="{% static 'css/leet.css' %}" rel="stylesheet">{% endblock %}
+
+{% block content %}
+<h1>LeetCode問題與解答</h1>
+{% if tag %}
+<h2># {{ tag.name }}</h2>
+{% endif %}
+{% for leet in leets %} 
+<h2><a href="{{ leet.get_absolute_url }}">{{ leet.title }}</a></h2>
+<p>
+    {% for tag in leet.tags.all %}
+        <a href="{% url 'blog:leet_tag' tag.slug %}">{{ tag.name }}</a>
+        {% if not forloop.last %},{% endif %}
+    {% endfor %}
+</p>
+{% if leet.level == 'E' %}
+<p class="level-display level-easy">Level: {{ leet.level|capfirst }}</p>
+{% elif leet.level == 'M' %}
+<p class="level-display level-medium">Level: {{ leet.level|capfirst }}</p>
+{% elif leet.level == 'H' %}
+<p class="level-dispaly level-hard">Level: {{ leet.level|capfirst }}</p>
+{% endif %}
+<p>{{ leet.problem|markdown|truncatewords_html:50|truncatechars_html:60 }}</p>
+{% endfor %}
+{% include 'dannyapp/pagination.html' with page=leets %}
+{% endblock %}

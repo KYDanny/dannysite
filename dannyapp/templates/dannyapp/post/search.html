@@ -1,0 +1,28 @@
+{% extends 'dannyapp/base.html' %}
+{% load blog_tags %}
+
+{% block title %}Search Key Words{% endblock %}
+
+{% block content %}
+    {% if query %}
+        <h1>搜尋含「{{ query }}」的文章</h1>
+        <h3>共{{ results.count }}筆搜尋結果</h3>
+        {% for result in results %}
+        <h4><a href="{{ result.get_absolute_url }}">{{ result.title }}</a></h4>
+        {% if result.problem %}
+            {{ result.problem|markdown|truncatechars_html:40|truncatewords_html:30 }}
+        {% else %}
+            {{ result.content|markdown|truncatechars_html:40|truncatewords_html:30 }}
+        {% endif %}
+        {% empty %}
+        <p>沒有合適的搜尋結果</p>
+        {% endfor %}
+        <p><a href="{% url 'blog:post_search' %}">重新搜尋</a></p>
+    {% else %}
+    <h1>搜尋文章</h1>
+    <form method="get">
+        {{ form.as_table }}
+        <input type="submit" value="搜尋">
+    </form>
+    {% endif %}
+{% endblock %}

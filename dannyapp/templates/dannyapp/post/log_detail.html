@@ -1,0 +1,11 @@
+{% extends 'dannyapp/base.html' %}
+
+{% block title %}{{ logging.title }}{% endblock %}
+
+{% block content %}
+
+<h1>{{ logging.title }}</h1>
+<p class="date">Created {{ logging.created }}</p>
+{{ logging.body|linebreaks }}
+
+{% endblock %}

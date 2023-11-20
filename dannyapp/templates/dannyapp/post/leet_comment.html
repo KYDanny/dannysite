@@ -1,0 +1,12 @@
+{% extends 'dannyapp/base.html' %}
+
+{% block title %}留言{% endblock %}
+
+{% block content %}
+    {% if comment %}
+    <h2>留言成功</h2>
+    <a href="{{ leet.get_absolute_url }}">返回文章</a>
+    {% else %}
+        {% include 'dannyapp/post/leet_comment_form.html' %}
+    {% endif %}
+{% endblock %}

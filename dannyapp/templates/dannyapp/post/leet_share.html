@@ -1,0 +1,17 @@
+{% extends 'dannyapp/base.html' %}
+
+{% block title %}Sharing LeetCode Post{% endblock %}
+
+{% block content %}
+{% if sent %}
+<h1>Email已發送</h1>
+<p>{{ leet.title }}已成功寄至{{ form.clean.receiver }}</p>
+{% else %}
+<h1>分享LeetCode題目與解答</h1>
+<form method='post'>
+    {{ form.as_table }}
+    {% csrf_token %}
+    <input type="submit" value="發送Email">
+</form>
+{% endif %}
+{% endblock %}
