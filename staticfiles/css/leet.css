@@ -1,0 +1,22 @@
+.level-easy {
+  color: #28a745;
+  /* Green */
+}
+
+.level-medium {
+  color: #ffc107;
+  /* Yellow or Orange */
+}
+
+.level-hard {
+  color: #dc3545;
+  /* Red */
+}
+
+/* General style for all levels */
+.level-display {
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 1.2em;
+  /* Larger text */
+}
