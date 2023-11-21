@@ -84,11 +84,11 @@ def leet_share(request, id):
             share_url = request.build_absolute_uri(leet.get_absolute_url())
             subject = f"{cd['name']}推薦您閱讀{leet.title}"
             message = f"{leet.title}的連結：{share_url}\n\n{cd['name']}的留言：{cd['comment']}"
-            # try:
-            send_mail(subject, message, cd['sender'], [cd['receiver']])
-            sent = True
-            # except:
-            #     return HttpResponse("發送郵件失敗")
+            try:
+                send_mail(subject, message, cd['sender'], [cd['receiver']])
+                sent = True
+            except:
+                return HttpResponse("發送郵件失敗")
     else:
         form = EmailLeetForm()
 
