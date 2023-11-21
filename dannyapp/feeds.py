@@ -42,7 +42,7 @@ class Latest_thoughts_feed(Feed):
 
 class General_feed(Feed):
     title = "本站最新文章"
-    link = reverse_lazy("blog:homepage")
+    link = reverse_lazy("blog:index")
     description = "本站最新文章"
 
     def items(self):

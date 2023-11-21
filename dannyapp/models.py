@@ -7,7 +7,7 @@ from taggit.managers import TaggableManager
 
 
 #Homepage
-class Homepage(models.Model):
+class Index(models.Model):
     title = models.CharField(max_length=250)
     body = models.TextField()
 
