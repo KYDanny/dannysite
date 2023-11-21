@@ -8,12 +8,12 @@ from django.http import Http404, HttpResponse
 from django.shortcuts import render, get_object_or_404
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
-from .models import Homepage, Log, Leet, Thoughts, Site_description, Resume
+from .models import Index, Log, Leet, Thoughts, Site_description, Resume
 from .forms import EmailLeetForm, CommentLeetForm, EmailThoughtsForm, CommentThoughtsForm, SearchForm
 
-def homepage(request):
-    posts = Homepage.objects.all()
-    return render(request, 'dannyapp/post/homepage.html', {'posts':posts})
+def index(request):
+    posts = Index.objects.all()
+    return render(request, 'dannyapp/post/index.html', {'posts':posts})
 
 #log views
 def log(request):

@@ -6,7 +6,7 @@ from .feeds import Latest_leet_feed, Latest_thoughts_feed, General_feed
 app_name = "dannyapp"
 
 urlpatterns = [
-    path('', views.homepage, name='homepage'),
+    path('', views.index, name='index'),
     path('log/', views.log, name='log'),
     path('log/<int:year>/<int:month>/<int:day>/<slug:log>/', views.log_detail, name='log_detail'),
     path('leet', views.leet, name='leet'),
