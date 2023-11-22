@@ -152,7 +152,7 @@ def thoughts_share(request, id):
         form = EmailThoughtsForm(request.POST)
         if form.is_valid():
             cd = form.cleaned_data
-            link = request.build_absolute_uri(thought.get_absolute_url)
+            link = request.build_absolute_uri(thought.get_absolute_url())
             subject = f"{cd['name']} recommends you to read {thought.title}."
             message = (f"{cd['purpose']}<br><br>"
                        f"<strong>{cd['name']}'s comment:</strong> {cd['comment']}<br><br>"
