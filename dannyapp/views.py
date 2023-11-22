@@ -162,6 +162,7 @@ def thoughts_share(request, id):
                 name = cd['name']
                 purpose = cd['purpose']
                 comment = cd['comment']
+                receiver = cd['receiver']
             except:
                 return HttpResponse("發送郵件失敗")
 
@@ -171,7 +172,7 @@ def thoughts_share(request, id):
     return render(request, "dannyapp/post/thoughts_share.html", {"thought":thought,
                                                                "form":form, "sent":sent,
                                                                "name":name, "purpose":purpose,
-                                                               "comment":comment})
+                                                               "comment":comment, "receiver":receiver})
 
 @require_POST
 def thoughts_comments(request, thought_id):
