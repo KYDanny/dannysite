@@ -146,6 +146,7 @@ def thoughts_share(request, id):
     name = ''
     purpose = ''
     comment = ''
+    receiver = ''
 
     if request.method == 'POST':
         form = EmailThoughtsForm(request.POST)
@@ -163,7 +164,8 @@ def thoughts_share(request, id):
                 purpose = cd['purpose']
                 comment = cd['comment']
                 receiver = cd['receiver']
-            except:
+            except Exception as e:
+                print("error:",e)
                 return HttpResponse("發送郵件失敗")
 
     else:
