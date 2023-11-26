@@ -7,7 +7,7 @@
 {% block content %}
 {% for post in posts %}
 <h1>{{ post.title }}</h1>
-<img src="{% static 'dannyapp/images/myphoto.jpg' %}" alt="My Photo" width="1400px" height="1000px">
+<img src="{% static 'dannyapp/images/myphoto.jpg' %}" alt="My Photo" class="center-image">
 <p>{{ post.body|markdown }}</p>
 {% endfor %}
 {% endblock %}
